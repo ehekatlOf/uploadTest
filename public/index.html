@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Upload Test</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="scripts/upload.js"></script>
+</head>
+
+<body>
+    <img src="css/mondu.gif" />
+    <br>
+    <br>
+    <form enctype="multipart/form-data" action="/uploads" method="post">
+        <input id="uploadInput" type="file" name="uploadInput" />
+        <input id='submitFile' type="submit" />
+    </form>
+
+    <div id='fileDetail'>
+        <p id='fileName'></p>
+        <p id='fileType'></p>
+        <p id='fileSize'></p>
+        <p id='fileNull'></p>
+    </div>
+
+</body>
+
+</html>
