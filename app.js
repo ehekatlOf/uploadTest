@@ -14,10 +14,10 @@ var app = express();
 
 app.use(express.static('public'));
 
-app.post('/uploads', upload, function(req, res) {
+app.post('/uploads', function(req, res) {
     upload(req, res, function(err) {
         if (err) {
-            return res.end("didnt't work");
+            return res.end("naw dawg");
         }
         res.end("iz good");
     });
