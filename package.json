@@ -1,14 +1,26 @@
 {
-  "name": "chat-example",
+  "name": "server-upload",
   "version": "0.0.0",
   "description": "Server upload",
   "main": "app.js",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehekatlOf/uploadTest.git"
+  },
   "author": "outOfSpace",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
+    "async": "^2.0.1",
+    "express": "^4.14.0",
     "multer": "^1.2.0",
-    "socket.io": "~0.9.14"
-  }
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehekatlOf/uploadTest/issues"
+  },
+  "homepage": "https://github.com/ehekatlOf/uploadTest#readme"
 }
