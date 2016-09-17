@@ -2,7 +2,7 @@
   "name": "server-upload",
   "version": "0.0.0",
   "description": "Server upload",
-  "main": "app.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ehekatlOf/uploadTest.git"
@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "app.js"
+    "start": "server.js"
   },
   "license": "ISC",
   "bugs": {
